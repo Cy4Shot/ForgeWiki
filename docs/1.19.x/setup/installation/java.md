@@ -54,4 +54,4 @@ If no errors have appeared, you have successfully installed the Java JDK!
 - [ ] Conclusion
 
 
-[Continue](/wiki/1.19.x/setup/installation/ide/){ .md-button .md-button--primary }
+[Continue](/wiki/1.19.x/Setup/Installation/ide/){ .md-button .md-button--primary }
