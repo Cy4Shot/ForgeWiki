@@ -11,7 +11,7 @@ pip install mkdocs-material
 ## 2. Cloning the Repository
 You may clone the repository for this wiki via the following command:
 ```sh
-git clone https://github.com/Cy4Shot/YOUR-REPOSITORY
+git clone https://github.com/Cy4Shot/ForgeWiki
 ```
 Or by using [Github Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
 
