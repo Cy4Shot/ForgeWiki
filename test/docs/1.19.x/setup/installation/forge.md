@@ -13,4 +13,4 @@
 - [ ] Conclusion
 
 
-[Continue](/wiki/1.19.x/Setup/Installation/forge){ .md-button .md-button--primary }
+[Continue](/wiki/1.19.x/setup/installation/forge){ .md-button .md-button--primary }

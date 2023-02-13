@@ -34,4 +34,4 @@ Before you start this tutorial, it is recommended that:
 - [ ] Conclusion
 
 
-[Begin Tutorial](Installation/java){ .md-button .md-button--primary }
+[Begin Tutorial](installation/java){ .md-button .md-button--primary }

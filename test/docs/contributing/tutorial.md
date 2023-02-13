@@ -19,4 +19,4 @@ Or by using [Github Desktop](https://docs.github.com/en/desktop/contributing-and
 You may now make changes by writing `.md` files. Once you have completed changes, submit a pull request!
 
 
-[Contribution Guidelines](/wiki/Contributing/Guidelines){ .md-button .md-button--primary }
+[Contribution Guidelines](/wiki/contributing/guidelines){ .md-button .md-button--primary }
