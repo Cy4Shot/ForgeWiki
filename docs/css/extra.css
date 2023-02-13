@@ -1,0 +1,3 @@
+p:has(> a.md-button) {
+  text-align: center;
+}
