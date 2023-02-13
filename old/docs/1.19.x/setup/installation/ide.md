@@ -16,4 +16,4 @@ In this tutorial, we will learn how to install both the **IntelliJ** and **Eclip
 - [ ] Conclusion
 
 
-[Continue](/wiki/1.19.x/Setup/installation/forge){ .md-button .md-button--primary }
+[Continue](/wiki/1.19.x/setup/installation/forge){ .md-button .md-button--primary }
