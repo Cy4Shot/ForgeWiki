@@ -4,19 +4,19 @@ nav:
   - Home:
       - index.md
       - Contributing:
-          - Contribution Tutorial: contributing/tutorial.md
-          - Contribution Guidelines: contributing/guidelines.md
+          - Contribution Tutorial: Contributing/tutorial.md
+          - Contribution Guidelines: Contributing/guidelines.md
       - Community:
-          - community/index.md
+          - Community/index.md
       - Credits: credits.md
   - 1.19.x:
       - 1.19.x/index.md
       - Setup:
-          - 1.19.x/setup/index.md
+          - 1.19.x/Setup/index.md
           - Installation:
-              - Installing Java: 1.19.x/setup/installation/java.md
-              - Installing An IDE: 1.19.x/setup/installation/ide.md
-              - Downloading Forge: 1.19.x/setup/installation/forge.md
+              - Installing Java: 1.19.x/Setup/Installation/java.md
+              - Installing An IDE: 1.19.x/Setup/Installation/ide.md
+              - Downloading Forge: 1.19.x/Setup/Installation/forge.md
 plugins:
   - search
 markdown_extensions:
