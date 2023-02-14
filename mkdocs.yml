@@ -1,5 +1,7 @@
 site_name: Cy4's Forge Wiki
 site_url: https://cy4mods.me/wiki/
+repo_url: https://github.com/Cy4Shot/ForgeWiki/
+repo_name: Cy4Shot/ForgeWiki
 nav:
   - Home:
       - index.md
@@ -56,6 +58,8 @@ theme:
   name: material
   logo: ./assets/logo.png
   favicon: ./assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking
@@ -63,6 +67,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
+    - navigation.top
     - content.tooltips
     - content.code.copy
   palette:
@@ -80,3 +85,5 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra:
+  generator: false

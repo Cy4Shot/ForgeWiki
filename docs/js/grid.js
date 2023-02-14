@@ -5443,15 +5443,6 @@
       {
         class: "md-source__facts",
       },
-      Object.entries(e).map(([t, r]) =>
-        T(
-          "li",
-          {
-            class: `md-source__fact md-source__fact--${t}`,
-          },
-          typeof r == "number" ? dr(r) : r
-        )
-      )
     );
   }
   function Jr(e) {
