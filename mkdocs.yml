@@ -58,6 +58,7 @@ theme:
   name: material
   logo: ./assets/logo.png
   favicon: ./assets/logo.png
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/github
     admonition:

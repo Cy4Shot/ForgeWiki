@@ -13,6 +13,7 @@ All written pages must be formatted. In order to comply with the guidelines, the
 - [x] Admonitions are used to provide extra information.
 - [x] Buttons are added to link to relevant pages.
 - [x] MathJax equations must be used appropriately.
+- [x] Comment section is added if necessary.
 
 !!! warning "Pull Requests"
 
@@ -182,6 +183,22 @@ This is a simple block equation: $$1+1=2$$
 !!! info "MathJax Usage"
 
     MathJax **must** be used when representing any equation.
+
+### 1.10 Comments
+
+You can add comment support to a page by adding the following to the top of your page:
+
+```markdown title="Comment Support" linenums="1"
+---
+comments: true
+---
+
+Rest of the page goes here.
+```
+
+!!! info "Comments"
+
+    Comments are applicable only in tutorial / guide pages.
 
 ## 2. Editing Configuration
 

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Setup - Installation
 ## What is an IDE?
 An **IDE** (*Integrated Development Environment*) is essentially a glorified text editor - providing us with many helpful features for programming, such as code completion and templates.

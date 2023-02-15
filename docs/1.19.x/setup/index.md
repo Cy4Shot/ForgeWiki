@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Setup
 ## Tutorial Outline
 !!! note "Tutorial Difficulty"
