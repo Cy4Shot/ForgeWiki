@@ -19,6 +19,20 @@ nav:
               - Installing Java: 1.19.x/setup/installation/java.md
               - Installing An IDE: 1.19.x/setup/installation/ide.md
               - Downloading Forge: 1.19.x/setup/installation/forge.md
+  - 1.18.x:
+      - 1.18.x/index.md
+      - Setup:
+          - 1.18.x/setup/index.md
+          - Installation:
+              - Installing Java: 1.18.x/setup/installation/java.md
+              - Installing An IDE: 1.18.x/setup/installation/ide.md
+              - Downloading Forge: 1.18.x/setup/installation/forge.md
+              - Running your mod: 1.18.x/setup/installation/running-your-mod.md
+          - Configuration:
+              - File Structure: 1.18.x/setup/configuration/file-structure
+              - Buildscript: 1.18.x/setup/configuration/buildscript
+              - Mod File: 1.18.x/setup/configuration/mod-file
+              - Main Class: 1.18.x/setup/configuration/main-class
 plugins:
   - search
 markdown_extensions:
