@@ -1,3 +1,7 @@
 p:has(> a.md-button) {
   text-align: center;
 }
+
+div:has(> div.md-typeset__table) {
+  text-align: center;
+}

@@ -1,11 +1,16 @@
 # Setup - Installation
+
+In this section of the tutorial we will be installing Minecraft Forge!
+Forge is a **Mod Loader**, meaning it injects your mod into the game, allowing it to load.
+It also provides an **API**, which simplifies a bunch of the modding process.
+
 ## Downloading Forge
 
-1. Download forge here: [ [Download](/https://files.minecraftforge.net){:target="_blank"} ], pick your desired 1.18.x version from the dropdown list on the left, then choose your package, Latest, or Recommended
-2. Click the **Mdk** button and allow the waiting countdown from the top right of the advertisement to finish, then press *SKIP* to recieve your package.
-3. Find a place to store your mod and extract the mdk zip file to it, then rename the unzipped folder to the name of your mod.
+1. Start by downloading Forge [here](/https://files.minecraftforge.net "Download Forge"){:target="_blank"}, picking your desired 1.18.x version from the dropdown list on the left. Select either the `Latest` or `Recommended` version. 
+2. Click the **MDK** button and allow the waiting countdown from the top right of the advertisement to finish, then press *SKIP* to recieve your package.
+3. Find a place to store your mod and extract the mdk zip file to it, then rename the unzipped folder to the name of your mod. *This folder is where your mod will be located for the rest of the tutorial!*
 
-Congrats, your Forge mod has now been made, only thing is, you can't run it just yet.
+Congratulations, you've downloaded forge. Now time to configure it!
 
 ---
 
