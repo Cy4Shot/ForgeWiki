@@ -14,6 +14,10 @@ All written pages must be formatted. In order to comply with the guidelines, the
 - [x] Buttons are added to link to relevant pages.
 - [x] MathJax equations must be used appropriately.
 
+!!! warning "Pull Requests"
+
+    For a pull requests to be merged, it must comply with all guidelines.
+
 ### 1.1 Headings
 
 To write headings in markdown, place a `#` before the heading line.
@@ -33,6 +37,10 @@ Adding more `#` will diminish the size of the heading.
 ###### Heading 6
 ```
 
+!!! info "Rich Text Usage"
+
+    You **must** use headings whenever appropriate.
+
 ### 1.2 Rich Text Formatting
 
 You can use text formatting to add the following rich text features:
@@ -45,6 +53,10 @@ _This text is italic!_
 `This is code.`
 ```
 
+!!! info "Rich Text Usage"
+
+    You **must** use rich text whenever appropriate.
+
 ### 1.3 Key Strokes
 
 You can describe key strokes such as ++enter++ and ++alt+f4++ with the following syntax:
@@ -54,6 +66,10 @@ You can describe key strokes such as ++enter++ and ++alt+f4++ with the following
 ++alt+f4++
 ++ctrl+shift+win+alt+h++
 ```
+
+!!! info "Key Strokes Usage"
+
+    You **must** use key strokes whenever appropriate.
 
 ### 1.4 Lists
 
@@ -72,16 +88,24 @@ You can add a simple list with the following syntax:
   - [ ] Sublist.
 ```
 
+!!! info "List Usage"
+
+    You **must** add checkmark lists at the end of any multipage tutorial.
+
 ### 1.5 Links
 
 Links can be created with the following syntax:
 
 ```markdown title="Links" linenums="1"
-[External Link](https://example.com)
-[Internal Text](/wiki/path/to/page)
+[Internal Link](/wiki/path/to/page)
 [Link With Tooltip](/wiki/path/to/page "I am a tooltip!")
-[Opens In Another Tab](https://example.com){:target="_blank"}
+[External Link, Opens In New Tab](https://example.com){:target="_blank"}
 ```
+
+!!! info "Link Usage"
+
+    - Add tooltips whenever possible.
+    - External links must open in a new tab.
 
 ### 1.6 Codeblocks
 
@@ -103,6 +127,13 @@ System.out.println("Test Output");
 ```
 ````
 
+!!! info "Codeblock Usage"
+
+    - If a codeblock exceeds $1$ line, line numbers must be added.
+    - Codeblocks must be highlighted with the appropriate language, if possible.
+    - Codeblock title must reflect the contents of the codeblock.
+
+
 ### 1.7 Admonitions
 
 You can write admonitions using the following format:
@@ -117,6 +148,13 @@ You can write admonitions using the following format:
 The `info` defines the type of admonition.
 `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example` and `quote` are supported.
 
+!!! info "Usage of Admonition Types"
+
+    - Imporatnt information should be placed in an `info` admonition.
+    - Any extra information should be added via a `tip` admonition.
+    - Any warning should be put in a `warning` admonition.
+    - Pages that are uncompleted should be marked with a `danger` admonition at the top.
+
 ### 1.8 Buttons
 
 A button can be added simply by styling a link:
@@ -124,6 +162,12 @@ A button can be added simply by styling a link:
 ```md title="Basic Button"
 [Primary Button](buttonurl){ .md-button .md-button--primary }
 ```
+
+!!! info "Button Usage"
+
+    Buttons should link to the next section of a tutorial.
+
+    Relevant resources should be linked to with a link rather than a button.
 
 ### 1.9 MathJax
 
@@ -134,6 +178,10 @@ This is a simple inline equation: $1+1=2$
 
 This is a simple block equation: $$1+1=2$$
 ```
+
+!!! info "MathJax Usage"
+
+    MathJax **must** be used when representing any equation.
 
 ## 2. Editing Configuration
 
@@ -149,6 +197,11 @@ nav:
               - Installing An IDE: 1.19.x/setup/installation/ide.md
               - Downloading Forge: 1.19.x/setup/installation/forge.md
 ```
+
+!!! warning "Website Navigation"
+
+    In order for your page to be navigable, please add it to the `mkdocs.yml` file.
+    **All file paths must be lowercase.**
 
 ## 3. Submitting a PR
 
