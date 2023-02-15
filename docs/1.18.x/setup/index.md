@@ -29,8 +29,8 @@ Before you start this tutorial, it is recommended that:
     * [ ] Installing An IDE
     * [ ] Downloading Forge
 - [ ] Configuration
-    * [ ] File Structure
     * [ ] Buildscript
+    * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
 - [ ] Conclusion

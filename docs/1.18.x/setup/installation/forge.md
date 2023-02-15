@@ -19,13 +19,12 @@ Congratulations, you've downloaded forge. Now time to configure it!
     * [x] Installing Java
     * [x] Installing An IDE
     * [x] Downloading Forge
-    * [ ] Running your mod
 - [ ] Configuration
-    * [ ] File Structure
     * [ ] Buildscript
+    * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
 - [ ] Conclusion
 
 
-[Continue](running-your-mod.md){ .md-button .md-button--primary }
+[Continue](../configuration/buildscript.md){ .md-button .md-button--primary }

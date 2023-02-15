@@ -1,40 +1,30 @@
 # Setup - Configuration
 
-By the main class, we refer to the class with the same name as your mod. The MDK already has one, in your `src/main/java/com/yourName/modName` there should be an `ExampleMod.java` file. Refactor it (smart rename it) to your mod name, i.e. Jei.java for the Just Enough Items Mod
+The main class is the class the **Forge Mod Loader** operates on. Let's create it!
 
-## Clean-up
+1. Open `src/main/java` in your favourite IDE and delete its contents.
+2. Create a new package called `com.yourname.modid`. *(Replacing `yourname` with your name, and `modid` with your mod ID!)*
+3. Inside that package, create a new class either titled `Main` or `YourModName`, for clarity.
 
-A cleaned-up Main Class should look a lot like this:
-```java
-@Mod(TutorialMod.MODID)
-public class TutorialMod {
-    public static final String MODID = "tutorialmodid";
-    private static final Logger LOGGER = LogUtils.getLogger();
+You can now write your main class!
+```java title="Example Main Class" linenums="1"
+@Mod(Main.MODID) //(1)!
+public class Main {
+    public static final String MODID = "modid"; //(2)!
+    private static final Logger LOGGER = LogUtils.getLogger(); //(3)!
 
-    public TutorialMod()
-    {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        modEventBus.addListener(this::commonSetup);
-        MinecraftForge.EVENT_BUS.register(this);
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-        // We may put stuff here later so we will keep the method body
+    public Main() {
+        MinecraftForge.EVENT_BUS.register(this); //(4)!
     }
 }
 ```
 
-There are a lot of fields in the `mods.toml` file, not all have to be changed. Only change the ones specified or if you know what they do.
+1. The `#!java @Mod` annotation is detected by the **FML** *(Forge Mod Loader)*. It loads this class as a mod, with the Mod ID corresponding to that passed into the annotation.
+2. This is your Mod ID, as a variable for convenient use anywhere inside your project!
+3. The `LOGGER` will allow us to easily log information into the console at runtime!
+4. For now, the constructor will only register our mod onto the Event Bus, but will do more in the future!
 
-!!! info
-    You need to change the String `MODID` at the top of the class to match your set Mod ID in the [Mod File](mod-file.md)
-
-## Testing
-
-Run the game through the runClient Configuration another time to make sure no errors occur.
-
-If they do, look through the console log in your IDE and find the root of the problem
+Finally! Our mod is done! Let's launch it!
 
 ---
 
@@ -43,10 +33,9 @@ If they do, look through the console log in your IDE and find the root of the pr
     * [x] Installing Java
     * [x] Installing An IDE
     * [x] Downloading Forge
-    * [x] Running your mod
-- [x] Configuration
-    * [x] File Structure
+- [ ] Configuration
     * [x] Buildscript
+    * [x] Gradlew Commands
     * [x] Mod File
     * [x] Main Class
 - [ ] Conclusion

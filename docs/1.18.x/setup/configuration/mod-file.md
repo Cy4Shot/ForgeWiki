@@ -1,20 +1,52 @@
 # Setup - Configuration
 
-By the mod file, we refer to the `mods.toml` in `src/main/resources/META/INF`
+The `mods.toml` file is located in `src/main/resources/META_INF/`. It adds additional metadata to the mod. 
 
-## Getting rid of comments
+You can empty the file and rewrite it. An example `mods.toml` is shown below:
 
-Remove almost every comment, (# text,) the only ones you should consider leaving are the `# mandatory` and `# optional` as they may be useful
+```toml title="Example mods.toml" linenums="1"
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT" #(1)!
 
-## Replacing fields' values
+[[mods]]
+    modId="examplemod" #(2)!
+    version="1.0.0.0" #(3)!
+    displayName="Example Mod" #(4)!
+    credits="I'd like to this wiki!" #(5)!
+    authors="Author" #(6)!
+    description='''
+Mod description goes here. #(7)!
+    '''
 
-There are a lot of fields in the `mods.toml` file, not all have to be changed. Only change the ones specified or if you know what they do.
+[[dependencies.examplemod]] #(8)!
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
 
-| Field                     | Description                                                                                                                        |
-| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `modId`                   | Your Mod ID, used for referencing which mod something is from. i.e. `/give Player yourmod:coal` for the "yourmod" Mod ID           |
-| `displayName`             | What is displayed as the title for your Mod in the Mods List                                                                       |
-| `dependencies.examplemod` | Change the "examplemod" to the Mod ID you set, used for saying what your mod depends on to run, e.g. Jei if it was a Jei extension |
+[[dependencies.examplemod]] #(9)!
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+```
+
+1. The lisence for your mod!
+2. Your mod ID!
+3. Your mod version!
+4. The written name of your mod!
+5. Credits for your mod!
+6. Authors that wrote your mod! (That's you!)
+7. The longer, multiline description of your mod.
+8. Your mod ID!
+9. Your mod ID!
+
+!!! danger "This page is missing content!"
+
+    **TODO: Add descriptions to each possible field of the `mods.toml` file.** 
 
 ---
 
@@ -23,10 +55,9 @@ There are a lot of fields in the `mods.toml` file, not all have to be changed. O
     * [x] Installing Java
     * [x] Installing An IDE
     * [x] Downloading Forge
-    * [x] Running your mod
 - [ ] Configuration
-    * [x] File Structure
     * [x] Buildscript
+    * [x] Gradlew Commands
     * [x] Mod File
     * [ ] Main Class
 - [ ] Conclusion
