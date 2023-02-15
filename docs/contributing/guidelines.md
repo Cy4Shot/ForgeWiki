@@ -135,7 +135,22 @@ This is a simple inline equation: $1+1=2$
 This is a simple block equation: $$1+1=2$$
 ```
 
-## 2. Submitting a PR
+## 2. Editing Configuration
+
+When adding a page, please edit `mkdocs.yml` to add your pages to the tree. The structure is as follows:
+```yaml title="Editing mkdocs.yml example:" linenums="1"
+nav:
+  - 1.19.x: # This is a tab.
+      - 1.19.x/index.md # Tab root page.
+      - Setup: #Sub Section
+          - 1.19.x/setup/index.md # Section Root Page
+          - Installation: # Sub-Sub Section
+              - Installing Java: 1.19.x/setup/installation/java.md
+              - Installing An IDE: 1.19.x/setup/installation/ide.md
+              - Downloading Forge: 1.19.x/setup/installation/forge.md
+```
+
+## 3. Submitting a PR
 
 When submitting a pull request, it is important that your request meets the following conditions:
 
