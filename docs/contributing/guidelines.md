@@ -79,13 +79,15 @@ Links can be created with the following syntax:
 ```markdown title="Links" linenums="1"
 [External Link](https://example.com)
 [Internal Text](/wiki/path/to/page)
+[Link With Tooltip](/wiki/path/to/page "I am a tooltip!")
+[Opens In Another Tab](https://example.com){:target="_blank"}
 ```
 
 ### 1.6 Codeblocks
 
 A basic codeblock can be created as such:
 
-````markdown title="Basic Codeblock" linenums="1"
+````title="Basic Codeblock" linenums="1"
 ```java
 System.out.println("Test Output");
 ```
@@ -95,7 +97,7 @@ Here, `java` defines the language to use when highlighting the code. A list of a
 
 You can also add a title, and line numbers:
 
-````markdown title="Codeblock With Title and Line Numbers" linenums="1"
+````title="Codeblock With Title and Line Numbers" linenums="1"
 ```java title="Title Goes Here" linenums="1"
 System.out.println("Test Output");
 ```

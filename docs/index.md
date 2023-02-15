@@ -1,9 +1,9 @@
 # Forge Community Wiki
 
-Welcome to the **Forge Wiki**! This is a community wiki dedicated to creating **simple**, **reliable** and **accessible** for [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/)!
+Welcome to the **Forge Wiki**! This is a community wiki dedicated to creating **simple**, **reliable** and **accessible** for [Minecraft Forge](https://files.minecraftforge.net/net/minecraftforge/forge/){:target="_blank"}!
 Start by selecting your Forge Version from the tabs at the top!
 
-The wiki aims to be informative and useful. If you feel like something is missing [add it yourself](contributing/tutorial), or [join the discord](https://discord.gg/cy4-s-modding-community-813337451879202866) to request some content!
+The wiki aims to be informative and useful. If you feel like something is missing [add it yourself](contributing/tutorial), or [join the discord](https://discord.gg/cy4-s-modding-community-813337451879202866){:target="_blank"} to request some content!
 
 ## Get Started
 
