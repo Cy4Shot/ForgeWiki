@@ -1,9 +1,15 @@
 # Setup - Configuration
 ## Folder Naming
 
-The usual convention for folders is `com/yourName/modName`, but of course you don't have to stick to it.
+The usual convention for folders is
+```
+src/main/java/
+    └── com.yourName.modName/
+        └── Main.java
+```
+But of course you don't have to stick to it.
 
-Each modder has their own style of folder naming that is very similar, for each content package, such as your code for blocks, I would suggest either `block` or `blocks`. This goes in your `common` package (read below)
+Each modder has their own style of folder naming that is very similar, for each content package (the folders with code that adds stuff to the game), such as your code for blocks, I would suggest either `block` or `blocks`.
 
 ##  Organisation
 

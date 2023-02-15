@@ -10,12 +10,11 @@ Remove almost every comment, (# text,) the only ones you should consider leaving
 
 There are a lot of fields in the `mods.toml` file, not all have to be changed. Only change the ones specified or if you know what they do.
 
-**Fields:**
-
-- `modId`, your Mod ID, used for referencing which mod something is from. i.e. `/give Player yourmod:coal` for the "yourmod" Mod ID
-- `displayName`, what is displayed as the title for your Mod in the Mods List
-- `credits`, `authors` and `description` are not needed and are just text shown in your Mod in the Mods List
-- `dependencies.examplemod`, change the "examplemod" to the Mod ID you set
+| Field                     | Description                                                                                                                        |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `modId`                   | Your Mod ID, used for referencing which mod something is from. i.e. `/give Player yourmod:coal` for the "yourmod" Mod ID           |
+| `displayName`             | What is displayed as the title for your Mod in the Mods List                                                                       |
+| `dependencies.examplemod` | Change the "examplemod" to the Mod ID you set, used for saying what your mod depends on to run, e.g. Jei if it was a Jei extension |
 
 ---
 

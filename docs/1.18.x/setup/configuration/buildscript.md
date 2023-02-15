@@ -6,7 +6,9 @@ By buildscript, we refer to the `build.gradle` file of your project.
 
 Remove almost every comment, (// text,) the only one you should leave should be:
 
-`accessTransformer = file("src/main/resources/META-INF/accesstransformer.cfg")`
+```java
+//accessTransformer = file("src/main/resources/META-INF/accesstransformer.cfg")
+```
 
 as you may need it later by uncommenting it. 
 
@@ -18,9 +20,6 @@ Change all occurances of example to your name, and examplemod should change to y
 
 - example -> mezz
 - examplemod -> jei
-
-!!! info "Extra Info"
-    You may add extra fields to the buildscript later on, but right now it is not necessary
 
 ---
 

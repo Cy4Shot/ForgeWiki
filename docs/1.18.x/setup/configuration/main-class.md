@@ -2,13 +2,28 @@
 
 By the main class, we refer to the class with the same name as your mod. The MDK already has one, in your `src/main/java/com/yourName/modName` there should be an `ExampleMod.java` file. Refactor it (smart rename it) to your mod name, i.e. Jei.java for the Just Enough Items Mod
 
-## Cleanup
+## Clean-up
 
-1. Remove every comment (// text) as they clutter the class
-2. Delete the code inside the `commonSetup` method
-3. Remove the `onServerStarting` method and its annotation completely
-4. Completely delete the ClientModEvents class and its annotation
-5. Remove the `BLOCKS` and `ITEMS` Deferred Registers at the top of the class and the Registry Objects that used them
+A cleaned-up Main Class should look a lot like this:
+```java
+@Mod(TutorialMod.MODID)
+public class TutorialMod {
+    public static final String MODID = "tutorialmodid";
+    private static final Logger LOGGER = LogUtils.getLogger();
+
+    public TutorialMod()
+    {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        modEventBus.addListener(this::commonSetup);
+        MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    private void commonSetup(final FMLCommonSetupEvent event)
+    {
+        // We may put stuff here later so we will keep the method body
+    }
+}
+```
 
 There are a lot of fields in the `mods.toml` file, not all have to be changed. Only change the ones specified or if you know what they do.
 

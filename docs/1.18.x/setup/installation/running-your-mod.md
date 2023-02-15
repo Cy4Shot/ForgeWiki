@@ -9,7 +9,6 @@ Gradle is setup through two main ways, one respectively for **Intellij** and ano
 For any of these to work, your PC must meet the following **requirements**:
 
 - Connected to the **Internet**
-- Not blocked by any installed **AntiVirus**
 - Has **Storage Space**, but not much is needed
 
 ### IntelliJ
