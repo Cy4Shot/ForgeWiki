@@ -35,6 +35,9 @@ nav:
               - Gradlew Commands: 1.18.x/setup/configuration/gradlew.md
               - Mod File: 1.18.x/setup/configuration/mod-file.md
               - Main Class: 1.18.x/setup/configuration/main-class.md
+      - Tools:
+          - 1.18.x/tools/index.md
+          - Mixin: 1.18.x/tools/mixin.md
 plugins:
   - search
 markdown_extensions:
