@@ -29,3 +29,14 @@ These start to finish tutorials should make it simple to get into Modding Minecr
 ## Other 1.18.x Topics
 
 These guides are on topics that don't fit into the basic tutorial series, but are still important for modding!
+<div class="grid cards" markdown>
+
+-   :octicons-tools-16:{ .lg .middle } __Tools__
+
+    ---
+
+    Add or shadow dependencies, and modify or inject into Minecraft Code!
+
+    [:octicons-arrow-right-24: Explore Tools](tools "Explore Tools!")
+
+</div>
