@@ -18,7 +18,7 @@ When the game is run, nothing will happen as of yet, we need to send the registe
 ```java
 @Mod(TutorialMod.MODID)
 public class TutorialMod {
-    public static final String MODID = "tutorialmodid";
+    public static final String MODID = "modid";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public TutorialMod() {
@@ -52,7 +52,7 @@ These json files must contain the following json code:
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialmodid:item/example_item"
+    "layer0": "modid:item/example_item"
   }
 }
 ```
@@ -70,7 +70,7 @@ Your textures have to be in a `.png` format, and using anything other than 16x16
 They go in this folder:
 ```
 src/main/resources/
-    └── assets/examplemod/
+    └── assets/modid/
         └── textures/item/
 ```
 
@@ -90,7 +90,7 @@ Tabs are very easy to create. First, we add some code to the [Main Class](../set
 ```java
 @Mod(TutorialMod.MODID)
 public class TutorialMod {
-    public static final String MODID = "tutorialmodid";
+    public static final String MODID = "modid";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // We make a new constant field for our Tab
