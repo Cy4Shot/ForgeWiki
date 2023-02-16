@@ -51,11 +51,10 @@ If no errors have appeared, you have successfully installed the Java JDK!
     * [ ] Installing An IDE
     * [ ] Downloading Forge
 - [ ] Configuration
-    * [ ] File Structure
     * [ ] Buildscript
+    * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
 - [ ] Conclusion
-
 
 [Continue](/wiki/1.19.x/setup/installation/ide/){ .md-button .md-button--primary }

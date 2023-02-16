@@ -1,4 +1,4 @@
-# Forge 1.19.x - Tools
+# Forge 1.18.x - Tools
 
 This section of the **Forge 1.19.x** wiki goes over some concepts that are extremely useful during modding, such as dependency managment and Minecraft code modification!
 
