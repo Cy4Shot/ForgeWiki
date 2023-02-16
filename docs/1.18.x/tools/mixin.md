@@ -1,4 +1,4 @@
-# Forge 1.19.x Tools - Mixins
+# Forge 1.18.x Tools - Mixins
 
 **Mixin** is a method to modify Minecraft's code, or even Forge and other mods.
 This tutorial will help you setup mixin, and show you how to use it.

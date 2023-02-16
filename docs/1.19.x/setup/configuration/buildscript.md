@@ -22,62 +22,59 @@ The buildscript is the `build.gradle` file of your project.
 ??? example "Example build.gradle"
 
     ```groovy title="Below is an example, annotated, buildscript." linenums="1"
-    buildscript {
-        repositories {
-            maven { url = 'https://maven.minecraftforge.net' }
-            mavenCentral()
-        }
-        dependencies {
-            classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        }
+    plugins {
+        id 'eclipse'
+        id 'maven-publish'
+        id 'net.minecraftforge.gradle' version '5.1.+'
     }
-    apply plugin: 'net.minecraftforge.gradle'
-    apply plugin: 'eclipse'
-    apply plugin: 'maven-publish'
 
     version = '1.0' //(1)!
-    group = 'com.cy4.tutorialmod' //(2)!
-    archivesBaseName = 'tutorialmod' //(3)!
+    group = 'com.yourname.modid' //(2)!
+    archivesBaseName = 'modid' //(3)!
 
     java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
     minecraft {
-        mappings channel: 'official', version: '1.18.1' //(4)!
+        mappings channel: 'official', version: '1.19.3' //(4)!
 
         runs {
             client {
                 workingDirectory project.file('run')
                 property 'forge.logging.markers', 'REGISTRIES'
-
                 property 'forge.logging.console.level', 'debug'
-
+                property 'forge.enabledGameTestNamespaces', 'examplemod'
                 mods {
-                    tutorialmod/*(8)!*/ { source sourceSets.main }
+                    examplemod/*(8)!*/ { source sourceSets.main }
                 }
             }
 
             server {
                 workingDirectory project.file('run')
-
                 property 'forge.logging.markers', 'REGISTRIES'
-
                 property 'forge.logging.console.level', 'debug'
-
+                property 'forge.enabledGameTestNamespaces', 'examplemod'
                 mods {
-                    tutorialmod/*(9)!*/ { source sourceSets.main }
+                    examplemod/*(9)!*/ { source sourceSets.main }
+                }
+            }
+
+            gameTestServer {
+                workingDirectory project.file('run')
+                property 'forge.logging.markers', 'REGISTRIES'
+                property 'forge.logging.console.level', 'debug'
+                property 'forge.enabledGameTestNamespaces', 'examplemod'
+                mods {
+                    examplemod/*(13)!*/ { source sourceSets.main }
                 }
             }
 
             data {
                 workingDirectory project.file('run')
                 property 'forge.logging.markers', 'REGISTRIES'
-
                 property 'forge.logging.console.level', 'debug'
-
                 args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-
                 mods {
-                    tutorialmod/*(10)!*/ { source sourceSets.main }
+                    examplemod/*(10)!*/ { source sourceSets.main }
                 }
             }
         }
@@ -85,21 +82,21 @@ The buildscript is the `build.gradle` file of your project.
 
     sourceSets.main.resources { srcDir 'src/generated/resources' }
 
-    repositories { }
+    repositories {}
 
     dependencies {
-        minecraft 'net.minecraftforge:forge:1.18.1-39.0.5' //(5)!
+        minecraft 'net.minecraftforge:forge:1.19.3-44.1.16' //(5)!
     }
 
     jar {
         manifest {
             attributes([
-                    "Specification-Title"     : "TutorialMod", //(6)!
-                    "Specification-Vendor"    : "Cy4", //(7)!
+                    "Specification-Title"     : "examplemod", //(6)!
+                    "Specification-Vendor"    : "examplemodsareus",
                     "Specification-Version"   : "1", //(11)!
                     "Implementation-Title"    : project.name,
                     "Implementation-Version"  : project.jar.archiveVersion,
-                    "Implementation-Vendor"   : "Cy4", //(12)!
+                    "Implementation-Vendor"   : "examplemodsareus", //(12)!
                     "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
             ])
         }
@@ -109,11 +106,19 @@ The buildscript is the `build.gradle` file of your project.
 
     publishing {
         publications {
-            mavenJava(MavenPublication) { artifact jar }
+            mavenJava(MavenPublication) {
+                artifact jar
+            }
         }
         repositories {
-            maven { url "file://${project.projectDir}/mcmodsrepo" }
+            maven {
+                url "file://${project.projectDir}/mcmodsrepo"
+            }
         }
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
     }
     ```
 
@@ -129,6 +134,7 @@ The buildscript is the `build.gradle` file of your project.
     10. This is the `data` run, which runs data generation scripts if present. *Make sure to replace `examplemod` with your Mod ID!*
     11. `Specification-Version` is the version of your mod when exported.
     12. `Implementation-Vendor` is the name of the author when exported. That's you!
+    13. This is the `gameTestServer` run, which runs registered game tests before exiting. *Make sure to replace `examplemod` with your Mod ID!*
 
 !!! warning "Changing the Buildscript"
 
@@ -144,11 +150,7 @@ The buildscript is the `build.gradle` file of your project.
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Basic Content
-    * [ ] Registries
-    * [ ] Items
-    * [ ] Blocks
-    * [ ] Loot tables
+- [ ] Conclusion
 
 
 [Continue](gradlew.md){ .md-button .md-button--primary }

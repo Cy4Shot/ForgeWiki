@@ -19,6 +19,11 @@ nav:
               - Installing Java: 1.19.x/setup/installation/java.md
               - Installing An IDE: 1.19.x/setup/installation/ide.md
               - Downloading Forge: 1.19.x/setup/installation/forge.md
+          - Configuration:
+              - Buildscript: 1.19.x/setup/configuration/buildscript.md
+              - Gradlew Commands: 1.19.x/setup/configuration/gradlew.md
+              - Mod File: 1.19.x/setup/configuration/mod-file.md
+              - Main Class: 1.19.x/setup/configuration/main-class.md
       - Tools:
           - 1.19.x/tools/index.md
           - Mixin: 1.19.x/tools/mixin.md

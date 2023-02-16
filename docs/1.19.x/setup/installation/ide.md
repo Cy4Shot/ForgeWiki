@@ -18,8 +18,8 @@ In this tutorial, we will learn how to install both the **IntelliJ** and **Eclip
     * [x] Installing An IDE
     * [ ] Downloading Forge
 - [ ] Configuration
-    * [ ] File Structure
     * [ ] Buildscript
+    * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
 - [ ] Conclusion
