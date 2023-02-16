@@ -38,7 +38,11 @@ Finally! Our mod is done! Let's launch it!
     * [x] Gradlew Commands
     * [x] Mod File
     * [x] Main Class
-- [ ] Conclusion
+- [ ] Basic Content
+    * [ ] Registries
+    * [ ] Items
+    * [ ] Blocks
+    * [ ] Loot tables
 
 
-[Continue](main-class.md){ .md-button .md-button--primary }
+[Continue](../../basic-content/registries.md){ .md-button .md-button--primary }

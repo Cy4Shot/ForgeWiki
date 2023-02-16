@@ -48,12 +48,17 @@ If no errors have appeared, you have successfully installed the Java JDK!
     * [x] Installing Java
     * [ ] Installing An IDE
     * [ ] Downloading Forge
+    * [ ] Running your mod
 - [ ] Configuration
     * [ ] Buildscript
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
+- [ ] Basic Content
+    * [ ] Registries
+    * [ ] Items
+    * [ ] Blocks
+    * [ ] Loot tables
 
 
 [Continue](ide.md){ .md-button .md-button--primary }

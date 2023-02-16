@@ -24,7 +24,11 @@ Congratulations, you've downloaded forge. Now time to configure it!
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
+- [ ] Basic Content
+    * [ ] Registries
+    * [ ] Items
+    * [ ] Blocks
+    * [ ] Loot tables
 
 
 [Continue](../configuration/buildscript.md){ .md-button .md-button--primary }

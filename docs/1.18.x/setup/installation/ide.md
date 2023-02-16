@@ -15,12 +15,17 @@ In this tutorial, we will learn how to install both the **IntelliJ** and **Eclip
     * [x] Installing Java
     * [x] Installing An IDE
     * [ ] Downloading Forge
+    * [ ] Running your mod
 - [ ] Configuration
     * [ ] Buildscript
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
+- [ ] Basic Content
+    * [ ] Registries
+    * [ ] Items
+    * [ ] Blocks
+    * [ ] Loot tables
 
 
 [Continue](forge.md){ .md-button .md-button--primary }

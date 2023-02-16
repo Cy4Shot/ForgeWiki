@@ -4,7 +4,7 @@
 
     This is a tutorial for beginners! It should take no more than $1$ hour to complete. 
 
-This tutorial will teach you how to set up an environment to start modding with Forge 1.18. In this tutorial, you will:
+This tutorial will teach you how to set up an environment to start modding with Forge 1.19. In this tutorial, you will:
 
 - Download all the required software.
 - Download and setup forge.
@@ -30,8 +30,8 @@ Before you start this tutorial, it is recommended that:
     * [ ] Downloading Forge
     * [ ] Running your mod
 - [ ] Configuration
+    * [ ] File Structure
     * [ ] Buildscript
-    * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
 - [ ] Basic Content
@@ -41,4 +41,4 @@ Before you start this tutorial, it is recommended that:
     * [ ] Loot tables
 
 
-[Begin Tutorial](installation/java){ .md-button .md-button--primary }
+[Begin Tutorial](java){ .md-button .md-button--primary }
