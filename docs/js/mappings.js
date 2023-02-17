@@ -7,7 +7,7 @@ let namespaces = {
   mcp: "MCP",
 };
 
-window.addEventListener("load", (e) => {
+window.addEventListener("DOMContentLoaded", () => {
   let searches = document.getElementsByClassName("mappingDiv");
   for (let i = 0; i < searches.length; i++) {
     let search = searches[i].querySelector(".mappingSearchInput");
@@ -173,7 +173,10 @@ function update(e) {
       ).innerHTML
   );
   let version = e.getAttribute("version");
-  let allow = e.getAttribute("allow").split(",").map((x) => x === "true");
+  let allow = e
+    .getAttribute("allow")
+    .split(",")
+    .map((x) => x === "true");
   let results = e.parentElement.querySelector(".mappingSearchList");
   if (e.value.length < 3) {
     results.innerHTML = "";

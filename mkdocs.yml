@@ -118,7 +118,6 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
