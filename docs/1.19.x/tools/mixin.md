@@ -293,6 +293,20 @@ A method signature points to a specific method in the Java code. They are writte
 
     To inject into a static constructor, use `<clinit>` as the method name.
 
+You can find mixin targets using the search tool below:
+
+<div class="mappingDiv" markdown>
+<div class="mappingsNamespaces" markdown>
+=== "Mojang (SRG)"
+</div>
+<div class="mappingSearchBox">
+	<input class="mappingSearchInput" placeholder="Search the 1.19.3 mappings database..." version="1.19.3" allow="true,true,false"/>
+	<div class="mappingSearchRes">
+		<ol class="mappingSearchList"></ol>
+	</div>
+</div>
+</div>
+
 ## Sources
 
 Sources used in writing this guide are:
