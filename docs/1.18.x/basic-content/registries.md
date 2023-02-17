@@ -21,16 +21,6 @@ We can then access this registry via a reference and "put" our content into it, 
 ---
 
 - [x] Tutorial Description
-- [x] Installation
-    * [x] Installing Java
-    * [x] Installing An IDE
-    * [x] Downloading Forge
-    * [x] Running your mod
-- [x] Configuration
-    * [x] File Structure
-    * [x] Buildscript
-    * [x] Mod File
-    * [x] Main Class
 - [ ] Basic Content
     * [x] Registries
     * [ ] Items

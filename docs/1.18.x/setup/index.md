@@ -28,17 +28,11 @@ Before you start this tutorial, it is recommended that:
     * [ ] Installing Java
     * [ ] Installing An IDE
     * [ ] Downloading Forge
-    * [ ] Running your mod
 - [ ] Configuration
     * [ ] Buildscript
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Basic Content
-    * [ ] Registries
-    * [ ] Items
-    * [ ] Blocks
-    * [ ] Loot tables
 
 
 [Begin Tutorial](installation/java){ .md-button .md-button--primary }

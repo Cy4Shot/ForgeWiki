@@ -60,11 +60,6 @@ Mod description goes here. #(7)!
     * [x] Gradlew Commands
     * [x] Mod File
     * [ ] Main Class
-- [ ] Basic Content
-    * [ ] Registries
-    * [ ] Items
-    * [ ] Blocks
-    * [ ] Loot tables
 
 
 [Continue](main-class.md){ .md-button .md-button--primary }

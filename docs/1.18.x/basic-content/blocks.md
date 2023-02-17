@@ -20,7 +20,7 @@ Similarly, we also need to give this register to Forge in our main class:
 ```java
 @Mod(TutorialMod.MODID)
 public class TutorialMod {
-    public static final String MODID = "tutorialmodid";
+    public static final String MODID = "modid";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public TutorialMod() {
@@ -157,16 +157,6 @@ That "example_block" must refer to our Block Model json.
 ---
 
 - [x] Tutorial Description
-- [x] Installation
-    * [x] Installing Java
-    * [x] Installing An IDE
-    * [x] Downloading Forge
-    * [x] Running your mod
-- [x] Configuration
-    * [x] File Structure
-    * [x] Buildscript
-    * [x] Mod File
-    * [x] Main Class
 - [ ] Basic Content
     * [x] Registries
     * [x] Items
