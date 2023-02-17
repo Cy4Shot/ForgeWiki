@@ -26,7 +26,7 @@ This section of the **Forge 1.19.x** wiki goes over some concepts that are extre
 
     Annoyed that one of Minecraft's variables is either `private` or `final`? Remove it!
 
-    [:octicons-arrow-right-24: Transform Access](accesstransformer "Expunge the final variable!")
+    [:octicons-arrow-right-24: Transform Access](at "Expunge the final variable!")
 
 -   :material-blender-outline:{ .lg .middle } __Mixins__
 
