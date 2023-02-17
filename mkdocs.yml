@@ -5,11 +5,13 @@ repo_name: Cy4Shot/ForgeWiki
 nav:
   - Home:
       - index.md
+      - Landing Page: index.md
       - Contributing:
           - Contribution Tutorial: contributing/tutorial.md
           - Contribution Guidelines: contributing/guidelines.md
-      - Community:
-          - community/index.md
+      - Generators:
+          - Mappings: mappings.md
+      - Community: community/index.md
       - Credits: credits.md
   - 1.19.x:
       - 1.19.x/index.md
