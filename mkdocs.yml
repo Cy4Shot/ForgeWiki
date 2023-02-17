@@ -13,6 +13,7 @@ nav:
       - Credits: credits.md
   - 1.19.x:
       - 1.19.x/index.md
+      - Home: 1.19.x/index.md
       - Setup:
           - 1.19.x/setup/index.md
           - Installation:
@@ -30,6 +31,7 @@ nav:
           - Access Transformers: 1.19.x/tools/at.md
   - 1.18.x:
       - 1.18.x/index.md
+      - Home: 1.18.x/index.md
       - Setup:
           - 1.18.x/setup/index.md
           - Installation:
@@ -41,7 +43,8 @@ nav:
               - Gradlew Commands: 1.18.x/setup/configuration/gradlew.md
               - Mod File: 1.18.x/setup/configuration/mod-file.md
               - Main Class: 1.18.x/setup/configuration/main-class.md
-      - Basic Content:
+      - Blocks and Items:
+          - 1.18.x/basic-content/index.md
           - Registries: 1.18.x/basic-content/registries.md
           - Items: 1.18.x/basic-content/items.md
           - Blocks: 1.18.x/basic-content/blocks.md
