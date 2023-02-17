@@ -24,7 +24,6 @@ Congratulations, you've downloaded forge. Now time to configure it!
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Continue](../configuration/buildscript.md){ .md-button .md-button--primary }

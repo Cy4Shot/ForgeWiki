@@ -20,7 +20,6 @@ In this tutorial, we will learn how to install both the **IntelliJ** and **Eclip
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Continue](forge.md){ .md-button .md-button--primary }

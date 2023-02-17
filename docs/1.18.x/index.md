@@ -22,7 +22,7 @@ These start to finish tutorials should make it simple to get into Modding Minecr
 
     Learn how to create simple blocks / items in this simple guide!
 
-    [:octicons-arrow-right-24: Craft Your First Blocks / Items](setup "Create blocks / items!")
+    [:octicons-arrow-right-24: Craft Your First Blocks / Items](basic-content/registries.md "Create blocks / items!")
 
 </div>
 

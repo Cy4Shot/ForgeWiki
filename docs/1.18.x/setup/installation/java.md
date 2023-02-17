@@ -53,7 +53,6 @@ If no errors have appeared, you have successfully installed the Java JDK!
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Continue](ide.md){ .md-button .md-button--primary }

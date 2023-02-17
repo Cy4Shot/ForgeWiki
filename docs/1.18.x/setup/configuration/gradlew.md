@@ -27,7 +27,6 @@ Congrats, your mod runs! Time to edit the `mods.toml` file!.
     * [x] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 

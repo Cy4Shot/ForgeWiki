@@ -33,7 +33,6 @@ Before you start this tutorial, it is recommended that:
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Begin Tutorial](installation/java){ .md-button .md-button--primary }

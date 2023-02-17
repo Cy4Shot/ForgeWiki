@@ -60,7 +60,6 @@ Mod description goes here. #(7)!
     * [x] Gradlew Commands
     * [x] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Continue](main-class.md){ .md-button .md-button--primary }

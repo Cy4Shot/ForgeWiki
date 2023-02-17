@@ -144,7 +144,6 @@ The buildscript is the `build.gradle` file of your project.
     * [ ] Gradlew Commands
     * [ ] Mod File
     * [ ] Main Class
-- [ ] Conclusion
 
 
 [Continue](gradlew.md){ .md-button .md-button--primary }

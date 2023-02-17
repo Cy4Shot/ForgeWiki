@@ -41,9 +41,15 @@ nav:
               - Gradlew Commands: 1.18.x/setup/configuration/gradlew.md
               - Mod File: 1.18.x/setup/configuration/mod-file.md
               - Main Class: 1.18.x/setup/configuration/main-class.md
+      - Basic Content:
+          - Registries: 1.18.x/basic-content/registries.md
+          - Items: 1.18.x/basic-content/items.md
+          - Blocks: 1.18.x/basic-content/blocks.md
+          - Loot-Tables: 1.18.x/basic-content/loot-tables.md
       - Tools:
           - 1.18.x/tools/index.md
           - Mixin: 1.18.x/tools/mixin.md
+
           - Access Transformers: 1.18.x/tools/at.md
 plugins:
   - search
